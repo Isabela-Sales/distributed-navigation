@@ -3,40 +3,42 @@ html {
   font-family: sans-serif;
   line-height: 1.5;
   background-color: #fff;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  width: 2rem;
-}
-
 body {
   margin: 0;
-  font-size: 1.125rem;
+  padding: 0;
 }
 
 header {
   background-color: #e2e2e2;
   display: flex;
-  padding: 1rem;
   justify-content: space-around;
+  align-items: center;
 }
 
 header h1 {
   width: 33.3333%;
-  align-self: center;
+  align-self: auto;
+  margin: .5rem;
 }
 
 header img {
-  align-self: center;
+  width: 2rem;
+  order: -1;
+
+  /* align-self: auto; */
 }
 
 header p {
   width: 33.3333%;
-  align-self: center;
+  align-self: auto;
+  margin: .5rem;
 }
 
 nav a {
@@ -44,9 +46,15 @@ nav a {
   color: #0074d9;
   text-decoration: none;
   padding: .75em 1em .6em;
+  align-self: auto;
+}
+
+nav a:hover {
+  color: navy;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
+  margin: .5rem;
 }
