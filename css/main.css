@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -12,11 +13,40 @@ img {
   width: 2rem;
 }
 
+body {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
 header {
   background-color: #e2e2e2;
   display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+header h1 {
+  width: 33.3333%;
+  align-self: center;
+}
+
+header img {
+  align-self: center;
+}
+
+header p {
+  width: 33.3333%;
+  align-self: center;
+}
+
+nav a {
+  width: 33.3333%;
+  color: #0074d9;
+  text-decoration: none;
+  padding: .75em 1em .6em;
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
 }
